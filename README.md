@@ -44,6 +44,8 @@ In the span of less than 10 days, my approach was rather straightforward. The ma
 After this, I went ahead and ran baseline pipelines to check how different preprocessing of features my impact the model. Once this was done and the final pipeline was built I ran several models: Logistic Regression, SVC, Random Forest and XGBoost (especially since the data was non-linear).
 
 # How to Run the Model
+The toy dataset, represents what data is expected as input by the model, but is not actual data from Ocean Wise.
+
 
 # Limitations of the Model
 Finding Location Accuracy of cetaceans can be quite difficult, this is because your target is in constant motion.However, when it came to the limitations of my data for training a model there were two major limitations. 
@@ -58,7 +60,7 @@ As a result of the limitations to my data, the accuracies of the resulting model
 
 ![image](./Images/Model_Accuracies.png)
 
-The biggest take away is that there was only one major difference between Model 3 and Model 4. Both used XGBoost, but Model 4 included another column that had 36% of missing data, which this model can handle. This increased the accuracy by 2% as well as the F1 Score for two categories.
+The biggest take away is that there was only one major difference between Model 3 and Model 4. Both used XGBoost, but Model 4 included another column that had 36% of missing data, which this model can handle. This increased the accuracy by 2% as well. Looking more closely we can see that the F1 Score (ie. Sensitivity and Specificity of the model to predict the target values) increased for two categories.
 
 ![image](./Images/Model_Comparison.png)
 
