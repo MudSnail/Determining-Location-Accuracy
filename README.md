@@ -1,8 +1,8 @@
 # Determining-Location-Accuracy
-My CapStone Project at LightHouse Labs (presented on March 31, 2022) in partnership with Ocean Wise.
+This repo showcases my CapStone Project at LightHouse Labs (presented on March 31, 2022) in partnership with Ocean Wise.
 
 ## *Disclaimer*
-This repo does not include the real data used. Furthermore:
+This repo does not include the real data used to create the model The toy dataset in this repo however,represents what data is expected as input by the model, and can be used to test the model. Furthermore:
 
 *Data obtained from the B.C. Cetacean Sightings Network were collected opportunisticailly with limited knowledge of the temporal or spatial distribution of observer effort. A series of calculations used in Geographic Information Systems (GIS) framework were undertaken to reconstruct the distribution of observer effort<sup>1</sup>.*
 
@@ -44,7 +44,7 @@ In the span of less than 10 days, my approach was rather straightforward. The ma
 After this, I went ahead and ran baseline pipelines to check how different preprocessing of features my impact the model. Once this was done and the final pipeline was built I ran several models: Logistic Regression, SVC, Random Forest and XGBoost (especially since the data was non-linear).
 
 # How to Run the Model
-The toy dataset, represents what data is expected as input by the model, but is not actual data from Ocean Wise.
+
 
 
 # Limitations of the Model
