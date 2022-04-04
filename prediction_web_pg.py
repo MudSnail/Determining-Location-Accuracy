@@ -2,7 +2,6 @@ import numpy as np
 import joblib
 import pandas as pd
 import streamlit as st
-from pyxlsb import open_workbook as open_xlsb
 from io import BytesIO
 import xlsxwriter
 
