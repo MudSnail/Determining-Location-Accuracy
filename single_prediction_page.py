@@ -355,3 +355,5 @@ def show_single_page():
         prediction=classifier.predict(features_df)
         st.write(f'The Location Accuracy of this Sighting is: {prediction[0]}')
 
+if __name__=='__main__':
+    show_single_page()

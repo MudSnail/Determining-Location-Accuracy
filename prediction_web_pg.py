@@ -322,3 +322,5 @@ def show_predict_page():
         st.download_button(label='📥 Download Current Result', data=df_xlsx ,file_name= 'updated_data.xlsx')
 
 
+if __name__=='__main__':
+    show_predict_page()
