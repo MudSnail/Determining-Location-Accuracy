@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import datetime
 from prediction_web_pg import show_predict_page
 from single_prediction_page import show_single_page
 
