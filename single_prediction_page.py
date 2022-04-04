@@ -277,7 +277,7 @@ class objectTransformer:
 def show_single_page():
     st.title("BCSSN Location Accuracy Prediction")
     st.write("#### Input the required information for a single sighting:")
-    
+
     #import model
     classifier = joblib.load('classifier.joblib')
 
@@ -353,5 +353,5 @@ def show_single_page():
     #Predict
     if st.button('Predict Location Accuracy'):
         prediction=classifier.predict(features_df)
-        st.write(f'The Location Accuracy of this Sighting is: {prediction}')
+        st.write(f'The Location Accuracy of this Sighting is: {prediction[0]}')
 
